@@ -8,7 +8,7 @@ from sqlalchemy.exc import SAWarning
 import getpass
 
 
-class MLData:
+class DB:
     def __init__(self, db="mldata", user=None, password=None, host="192.168.10.2"):
         if not user:
             user = getpass.getuser()

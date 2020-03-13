@@ -2,14 +2,14 @@ import pandas as pd
 import os
 import time
 from io import StringIO
-from mlbase.db.engine import MLData
-from mlbase.db.indexer import index_tables
+from pgbase.db.engine import DB
+from pgbase.db.indexer import index_tables
 
 
 class Table:
     def __init__(self, schema_table, db=None):
         if not db:
-            self.db = MLData()
+            self.db = DB()
         else:
             self.db = db
         self.engine = self.db.engine

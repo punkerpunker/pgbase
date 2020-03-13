@@ -1,4 +1,4 @@
-from mlbase.db.engine import MLData
+from pgbase.db.engine import DB
 import pandas as pd
 import psycopg2
 import getpass

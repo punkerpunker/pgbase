@@ -1,6 +1,6 @@
 import pandas as pd
 from collections import OrderedDict
-from mlbase.db.table import Table
+from pgbase.db.table import Table
 
 
 class Query:

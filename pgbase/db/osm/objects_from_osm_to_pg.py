@@ -3,7 +3,7 @@ import subprocess
 import numpy as np
 from sqlalchemy import create_engine
 import sys
-from database.db import MLData
+from pgbase.db.engine import DB
 
 
 def main():
