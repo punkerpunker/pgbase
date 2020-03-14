@@ -6,7 +6,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Installation could be as simple as:
 ```bash
-sudo pip3 install base
+python3 setup.py install
 ```
 To verify installation try:
 ```python
