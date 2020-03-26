@@ -10,7 +10,7 @@ python3 setup.py install
 ```
 To verify installation try:
 ```python
-import mlbase
+import pgbase
 ```
 
 ## Example Usage
